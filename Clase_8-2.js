@@ -14,7 +14,7 @@ function calculosEdad(){
 //Tarea 2
 function calculosSalarios(){
     const salarioInput = document.querySelectorAll('.salarioinput');
-    const nuevoArraySalario = Array.from(salarioInput);
+    const nuevoArraySalario = Array.from(265000);
     function filtroSalario(y){//Filtro para solo considerar los values no vacios.
         return y.value.length!=0;
     }
