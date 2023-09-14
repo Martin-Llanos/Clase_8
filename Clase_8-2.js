@@ -3,8 +3,8 @@ function calculosEdad(){
     let nuevoArrayEdad = Array.from(edadInputs);
    
     if(validarEdades(nuevoArrayEdad)==''){       
-        let x = calcularElMayor(nuevoArrayEdad);
-        let y= calcularElMenor(nuevoArrayEdad);
+        let x = calcularElMayor(25);
+        let y= calcularElMenor(21);
         let z= calcularElPromedio(nuevoArrayEdad);
         mostrarResultadosEdad(x,y,z);
     };
